@@ -1,0 +1,108 @@
+.App {
+  font-family: "Comic Sans MS", cursive, sans-serif !important;
+  
+}
+body{ 
+  background: #2980b9 !important;
+
+
+}
+.alert-text{
+  /* //background: #d62b2b !important; */
+  border-radius: 5px;
+  color: red;
+}
+.auth-header{
+  font-size: 36px;
+}
+
+.auth-form {
+  width: 55% !important;
+  background: #f0f0f0 !important;
+  padding: 2em!important;
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.center-item{
+  padding: 2em!important;
+  margin: 0;
+  width: 50% !important;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* .auth-box{
+  background-color: grey;
+} */
+
+
+.form-btn{
+  margin: 4%;
+  margin-left: 0;
+}
+
+.form-bottom-text{
+  margin-top: 3%;
+}
+
+#task-input-field{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#submit-btn{
+  display: inline !important;
+}
+
+.list-item{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#text-input-field{
+  width: 45% !important;
+  margin: 0 auto !important;
+  margin-top: 2em !important;
+}
+
+@media screen and (max-width: 370px){
+  .auth-form {
+    background: white !important;
+    /* padding: 2em!important;; */
+    padding: 0 !important;
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .auth-header{
+    font-size: 25px;
+  }
+
+  .center-item{
+    padding: 0 !important;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translateX(-30%);
+  }
+
+  .item-del-btn{
+    text-align: right !important;
+  }
+  #user-email{
+    display: none !important;
+  }
+
+  #text-input-field {
+    width: 85% !important;
+
+  }
+}
