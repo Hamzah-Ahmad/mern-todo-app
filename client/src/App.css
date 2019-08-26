@@ -1,25 +1,23 @@
 .App {
   font-family: "Comic Sans MS", cursive, sans-serif !important;
-  
 }
-body{ 
-  background: #2980b9 !important;
 
-
+.list-group-item:nth-child(even) {
+  background: #e3e3e3 !important;
 }
-.alert-text{
-  /* //background: #d62b2b !important; */
+
+.alert-text {
+  background: #d62b2b !important;
   border-radius: 5px;
   color: red;
 }
-.auth-header{
+.auth-header {
   font-size: 36px;
 }
 
 .auth-form {
-  width: 55% !important;
-  background: #f0f0f0 !important;
-  padding: 2em!important;
+  width: 45% !important;
+  padding: 2em !important;
   margin: 0;
   position: absolute;
   top: 10%;
@@ -27,8 +25,8 @@ body{
   transform: translateX(-50%);
 }
 
-.center-item{
-  padding: 2em!important;
+.center-item {
+  padding: 2em !important;
   margin: 0;
   width: 50% !important;
   position: absolute;
@@ -36,42 +34,40 @@ body{
   left: 50%;
   transform: translateX(-50%);
 }
-/* .auth-box{
-  background-color: grey;
-} */
 
-
-.form-btn{
+.form-btn {
   margin: 4%;
   margin-left: 0;
 }
 
-.form-bottom-text{
+.form-bottom-text {
   margin-top: 3%;
 }
 
-#task-input-field{
+#task-input-field {
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
 
-#submit-btn{
+#submit-btn {
   display: inline !important;
 }
 
-.list-item{
+.list-item {
   padding: 0 !important;
   margin: 0 !important;
 }
 
-#text-input-field{
-  width: 45% !important;
+#text-input-field {
+  width: 80% !important;
   margin: 0 auto !important;
   margin-top: 2em !important;
 }
 
-@media screen and (max-width: 370px){
+@media screen and (max-width: 450px) {
   .auth-form {
+    width: 80% !important;
+
     background: white !important;
     /* padding: 2em!important;; */
     padding: 0 !important;
@@ -81,11 +77,11 @@ body{
     left: 50%;
     transform: translateX(-50%);
   }
-  .auth-header{
+  .auth-header {
     font-size: 25px;
   }
 
-  .center-item{
+  .center-item {
     padding: 0 !important;
     margin: 0;
     position: absolute;
@@ -94,15 +90,18 @@ body{
     transform: translateX(-30%);
   }
 
-  .item-del-btn{
+  .item-del-btn {
     text-align: right !important;
   }
-  #user-email{
+  #user-email {
     display: none !important;
   }
 
+  #signout-btn {
+    color: green;
+    margin-right: 0px !important;
+  }
   #text-input-field {
-    width: 85% !important;
-
+    width: 100% !important;
   }
 }
